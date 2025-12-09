@@ -71,8 +71,8 @@ const CardInfo = () => {
                     </a>
                 </li>
                 <li className='text-right'>
-                    <a href="https://www.instagram.com/haizzdowncotsong" className='flex gap-3 justify-end items-center group' target="_blank">
-                        <span className="hidden group-hover:block transition-all duration-200 animate-change-color " >haizzdowncotsong</span>
+                    <a href="https://www.instagram.com/hacmadaosi" className='flex gap-3 justify-end items-center group' target="_blank">
+                        <span className="hidden group-hover:block transition-all duration-200 animate-change-color " >hacmadaosi</span>
                         <FaInstagram size={24} />
 
                     </a>
