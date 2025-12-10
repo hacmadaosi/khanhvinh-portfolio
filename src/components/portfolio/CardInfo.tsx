@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { toast } from 'sonner';
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineEmail, MdOutlinePhone } from "react-icons/md";
+import Button from "../ui/CustomButton";
 
 const CardInfo = () => {
     const [displayedName, setDisplayedName] = useState('');
@@ -57,7 +58,8 @@ const CardInfo = () => {
                         <span id='lbeNumberPhone' className='text-sm cursor-pointer active:scale-95' onClick={() => copyNumberPhone()}>0339432860</span></li>
                 </ul>
             </div>
-            <ul className='flex sm:flex-col gap-3 sm:justify-end sm:border-l border-white sm:pl-5 sm:pr-1'>
+
+            <ul className='flex sm:flex-col gap-3 justify-end sm:border-l border-white sm:pl-5 sm:pr-1'>
                 <li className='text-right'>
                     <a href="https://www.linkedin.com/in/lkvinh" className='flex gap-3 justify-end items-center group' target="_blank">
                         <span className="hidden group-hover:block transition-all duration-200 animate-change-color "  >lkvinh</span>

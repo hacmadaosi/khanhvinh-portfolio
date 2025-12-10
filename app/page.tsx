@@ -1,5 +1,6 @@
 import Footer from "@/src/components/layout/Footer";
 import CardInfo from "@/src/components/portfolio/CardInfo";
+import History from "@/src/components/portfolio/History";
 import Project from "@/src/components/portfolio/Project";
 import Quote from "@/src/components/portfolio/Quote";
 import Skill from "@/src/components/portfolio/Skill";
@@ -15,6 +16,7 @@ export default function Home() {
         <Quote />
         <Skill />
       </div>
+      <History />
       <div>
         <Project />
       </div>
