@@ -173,7 +173,7 @@ const HandSignResult = ({ landmarks, setIsDrawSkeleton, IsDrawSkeleton }: Props)
       <div className="py-4 px-8 rounded-2xl h-fit border flex flex-col gap-4">
         <span className="text-xl text-center font-semibold">Phản hồi dự đoán</span>
         <span className="text-gray-300">Kết quả: {pred}</span>
-        <span className="text-gray-300">Xác suất: {prob !== null ? (prob * 100).toFixed(0) + '%' : ''}</span>
+        <span className="text-gray-300">Độ tin cậy: {prob !== null ? (prob * 100).toFixed(0) + '%' : ''}</span>
         <div className="flex justify-center items-center gap-4">
 
 
